@@ -53,7 +53,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Ruby SDK
-gem 'rakuten_web_service'
+gem 'rakuten_web_service' , '1.5.0'
 
 #環境変数
 gem 'dotenv-rails'
