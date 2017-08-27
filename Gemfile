@@ -57,3 +57,8 @@ gem 'rakuten_web_service' , '1.5.0'
 
 #環境変数
 gem 'dotenv-rails'
+
+#Heroku 用の設定
+group :production do
+  gem 'pg'
+end
